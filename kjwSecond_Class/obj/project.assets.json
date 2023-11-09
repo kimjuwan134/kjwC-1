@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwProgram\\kjwProgram.csproj",
-      "projectName": "kjwProgram",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwProgram\\kjwProgram.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwSecond_Class\\kjwSecond_Class.csproj",
+      "projectName": "kjwSecond_Class",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwSecond_Class\\kjwSecond_Class.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwProgram\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwSecond_Class\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

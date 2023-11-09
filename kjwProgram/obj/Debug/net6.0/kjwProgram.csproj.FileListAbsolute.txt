@@ -13,3 +13,18 @@ C:\Users\Administrator\Desktop\kjw C# 언어\kjwProgram\obj\Debug\net6.0\refint\
 C:\Users\Administrator\Desktop\kjw C# 언어\kjwProgram\obj\Debug\net6.0\kjwProgram.pdb
 C:\Users\Administrator\Desktop\kjw C# 언어\kjwProgram\obj\Debug\net6.0\kjwProgram.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\kjw C# 언어\kjwProgram\obj\Debug\net6.0\ref\kjwProgram.dll
+C:\Users\Administrator\Desktop\kjwC-1\kjwProgram\bin\Debug\net6.0\kjwProgram.exe
+C:\Users\Administrator\Desktop\kjwC-1\kjwProgram\bin\Debug\net6.0\kjwProgram.deps.json
+C:\Users\Administrator\Desktop\kjwC-1\kjwProgram\bin\Debug\net6.0\kjwProgram.runtimeconfig.json
+C:\Users\Administrator\Desktop\kjwC-1\kjwProgram\bin\Debug\net6.0\kjwProgram.dll
+C:\Users\Administrator\Desktop\kjwC-1\kjwProgram\bin\Debug\net6.0\kjwProgram.pdb
+C:\Users\Administrator\Desktop\kjwC-1\kjwProgram\obj\Debug\net6.0\kjwProgram.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\kjwC-1\kjwProgram\obj\Debug\net6.0\kjwProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\kjwC-1\kjwProgram\obj\Debug\net6.0\kjwProgram.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\kjwC-1\kjwProgram\obj\Debug\net6.0\kjwProgram.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\kjwC-1\kjwProgram\obj\Debug\net6.0\kjwProgram.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\kjwC-1\kjwProgram\obj\Debug\net6.0\kjwProgram.dll
+C:\Users\Administrator\Desktop\kjwC-1\kjwProgram\obj\Debug\net6.0\refint\kjwProgram.dll
+C:\Users\Administrator\Desktop\kjwC-1\kjwProgram\obj\Debug\net6.0\kjwProgram.pdb
+C:\Users\Administrator\Desktop\kjwC-1\kjwProgram\obj\Debug\net6.0\kjwProgram.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\kjwC-1\kjwProgram\obj\Debug\net6.0\ref\kjwProgram.dll

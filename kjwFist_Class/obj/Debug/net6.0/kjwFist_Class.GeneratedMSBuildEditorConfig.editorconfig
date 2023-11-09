@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = kjwProgram
-build_property.ProjectDir = C:\Users\Administrator\Desktop\kjwC-1\kjwProgram\
+build_property.RootNamespace = kjwFist_Class
+build_property.ProjectDir = C:\Users\Administrator\Desktop\kjwC-1\kjwFist_Class\
