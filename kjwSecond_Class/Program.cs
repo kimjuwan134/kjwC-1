@@ -1,4 +1,4 @@
-﻿namespace kjwSecond_Class
+﻿namespace kjwClass2nd
 {
     public class Item
     {

@@ -1,4 +1,4 @@
-﻿namespace kjwFist_Class
+﻿namespace kjwClass1st
 {
     internal class Program
     {

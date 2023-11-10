@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwFist_Class\\kjwFist_Class.csproj",
-      "projectName": "kjwFist_Class",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwFist_Class\\kjwFist_Class.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwFist_Class\\kjwClass1st.csproj",
+      "projectName": "kjwClass1st",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwFist_Class\\kjwClass1st.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwFist_Class\\obj\\",
       "projectStyle": "PackageReference",
