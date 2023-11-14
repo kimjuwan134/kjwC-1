@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwFist_Class\\kjwClass1st.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\kjwC-1\\Class4th\\Class4th.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwFist_Class\\kjwClass1st.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\kjwC-1\\Class4th\\Class4th.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwFist_Class\\kjwClass1st.csproj",
-        "projectName": "kjwClass1st",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwFist_Class\\kjwClass1st.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\Class4th\\Class4th.csproj",
+        "projectName": "Class4th",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\Class4th\\Class4th.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwFist_Class\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\Class4th\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

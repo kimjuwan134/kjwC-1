@@ -27,31 +27,10 @@
 
         static void Main(string[] args)
         {
-            #region 델리게이트
+            Calculator calculator;
 
-            //Calculator calculator;
-
-            //calculator = Add;
-            //calculator(10, 20);
-            //calculator = Substract;
-            //calculator(10, 20);
-
-            #endregion
-
-            #region 델리게이트 체인
-
-            //calculator = Add;
-            //calculator += Substract;
-            //calculator += Multiple;
-            //calculator += Divide;
-            //calculator -= Substract;
-            //calculator(5, 15);
-
-            #endregion
-
-            // readonly 런타임 상수
-
-            // const 컴파일 상수
+            calculator = Add;
+            calculator(10, 20);
 
         }
     }
