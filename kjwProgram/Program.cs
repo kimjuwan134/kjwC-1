@@ -53,6 +53,13 @@
 
             // const 컴파일 상수
 
+            #region base 키워드
+
+            Wizard wizard = new Wizard();
+
+
+            #endregion
+
         }
     }
 }
