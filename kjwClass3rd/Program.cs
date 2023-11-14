@@ -1,4 +1,4 @@
-﻿namespace kjwClass3th
+﻿namespace kjwClass3rd
 {
     #region 메소드 숨기기
 

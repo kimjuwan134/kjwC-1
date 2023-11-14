@@ -9,6 +9,7 @@
         {
             Console.WriteLine("attack의 값 : " + base.attack);
             Console.WriteLine("health의 값 : " + health);
+            //das
         }
     }
 }

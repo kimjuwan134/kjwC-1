@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\kjwC-1\\kjwClass4th\\kjwClass4th.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\kjwC-1\\kjwClass3rd\\kjwClass3rd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\kjwC-1\\kjwClass4th\\kjwClass4th.csproj": {
+    "C:\\Users\\Admin\\Desktop\\kjwC-1\\kjwClass3rd\\kjwClass3rd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\kjwC-1\\kjwClass4th\\kjwClass4th.csproj",
-        "projectName": "kjwClass4th",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\kjwC-1\\kjwClass4th\\kjwClass4th.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\kjwC-1\\kjwClass3rd\\kjwClass3rd.csproj",
+        "projectName": "kjwClass3rd",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\kjwC-1\\kjwClass3rd\\kjwClass3rd.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\kjwC-1\\kjwClass4th\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\kjwC-1\\kjwClass3rd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
