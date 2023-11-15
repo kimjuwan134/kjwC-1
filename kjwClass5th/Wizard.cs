@@ -1,4 +1,4 @@
-﻿namespace kjwProgram
+﻿namespace kjwClass5th
 {
     internal class Wizard : Job
     {

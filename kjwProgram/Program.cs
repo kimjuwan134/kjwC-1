@@ -1,65 +1,32 @@
-﻿namespace kjwProgram
+﻿using Microsoft.VisualBasic;
+
+namespace kjwProgram
 {
-    public delegate void Calculator(int x, int y);
 
     internal class Program
     {
-        static void Add(int x, int y)
-        {
-            Console.WriteLine("x + y = " + (x + y));
-        }
-
-        static void Substract(int x, int y)
-        {
-            Console.WriteLine("x - y = " + (x - y));
-        }
-
-        static void Multiple(int x, int y)
-        {
-            Console.WriteLine("x * y = " + (x * y));
-        }
-        
-        static void Divide(int x, int y)
-        {
-            Console.WriteLine("x / y = " + (x / y));
-        }
-
 
         static void Main(string[] args)
         {
-            #region 델리게이트
+            #region SRP 5대 원칙
 
-            //Calculator calculator;
+            //Monster spider = new Monster("독거미", 10, 100);
+            //spider.Patrol();
 
-            //calculator = Add;
-            //calculator(10, 20);
-            //calculator = Substract;
-            //calculator(10, 20);
-
-            #endregion
-
-            #region 델리게이트 체인
-
-            //calculator = Add;
-            //calculator += Substract;
-            //calculator += Multiple;
-            //calculator += Divide;
-            //calculator -= Substract;
-            //calculator(5, 15);
+            //Information information = new Information();
+            //information.MonsterInfo(spider);
 
             #endregion
 
-            // readonly 런타임 상수
+            #region OCP 5대 원칙
 
-            // const 컴파일 상수
+            UnitManager unitManager = new UnitManager();
 
-            #region base 키워드
-
-            Wizard wizard = new Wizard();
-
+            unitManager.Commend(new Marine());
+            unitManager.Commend(new Firebet());
+            unitManager.Commend(new Ghost());
 
             #endregion
-
         }
     }
 }
