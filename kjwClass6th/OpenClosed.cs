@@ -1,4 +1,4 @@
-﻿namespace kjwProgram
+﻿namespace kjwClass6th
 {
     #region 개방 폐쇄 원칙
 

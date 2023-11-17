@@ -1,4 +1,4 @@
-﻿namespace kjwProgram
+﻿namespace kjwClass6th
 {
     #region 인터페이스 분리 원칙
 

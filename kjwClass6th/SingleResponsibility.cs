@@ -1,4 +1,4 @@
-﻿namespace kjwProgram
+﻿namespace kjwClass6th
 {
     #region 단일 책임 원칙
 
