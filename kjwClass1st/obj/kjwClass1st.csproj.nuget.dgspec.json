@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwClass1st\\kjwClass1st.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\kjwC-1\\kjwClass1st\\kjwClass1st.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwClass1st\\kjwClass1st.csproj": {
+    "C:\\Users\\Admin\\Desktop\\kjwC-1\\kjwClass1st\\kjwClass1st.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwClass1st\\kjwClass1st.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\kjwC-1\\kjwClass1st\\kjwClass1st.csproj",
         "projectName": "kjwClass1st",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwClass1st\\kjwClass1st.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwClass1st\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\kjwC-1\\kjwClass1st\\kjwClass1st.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\kjwC-1\\kjwClass1st\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

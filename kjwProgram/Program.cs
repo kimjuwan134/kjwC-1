@@ -20,11 +20,44 @@ namespace kjwProgram
 
             #region OCP 5대 원칙
 
-            UnitManager unitManager = new UnitManager();
+            //UnitManager unitManager = new UnitManager();
 
-            unitManager.Commend(new Marine());
-            unitManager.Commend(new Firebet());
-            unitManager.Commend(new Ghost());
+            //unitManager.Commend(new Marine());
+            //unitManager.Commend(new Firebet());
+            //unitManager.Commend(new Ghost());
+
+            #endregion
+
+            #region ISP 5대 원칙
+
+            //Wraith wraith = new Wraith();
+            //wraith.Attack();
+            //wraith.Skill();
+            //wraith.Move();
+
+            //BattleCruiser battle = new BattleCruiser();
+            //battle.Attack();
+            //battle.Skill();
+            //battle.Move();
+
+            //Dropship dropship = new Dropship();
+            //dropship.Skill();
+            //dropship.Move();
+
+            //Valkyrie valkyrie = new Valkyrie();
+            //valkyrie.Attack();
+            //valkyrie.Move();
+
+
+
+
+
+            #endregion
+
+            #region DIP 5대 원칙
+
+
+
 
             #endregion
         }
