@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kjwClass4th", "..\kjwClass4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kjwClass5th", "..\kjwClass5th\kjwClass5th.csproj", "{D9800A71-0072-4139-863B-7B771C639450}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kjwClass6th", "..\kjwClass6th\kjwClass6th.csproj", "{85ED53DB-93BB-47AA-A622-24B5733D0567}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kjwClass6th", "..\kjwClass6th\kjwClass6th.csproj", "{85ED53DB-93BB-47AA-A622-24B5733D0567}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kjwClass7th", "..\kjwClass7th\kjwClass7th.csproj", "{CF1FC303-8E09-4C91-B0C2-E26282FBBA99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kjwClass7th", "..\kjwClass7th\kjwClass7th.csproj", "{CF1FC303-8E09-4C91-B0C2-E26282FBBA99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kjwClass8th", "..\kjwClass8th\kjwClass8th.csproj", "{898D6FC6-CCB4-4F3D-8FCB-E59965F75BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kjwClass9th", "..\kjwClass9th\kjwClass9th.csproj", "{8EC4A264-DD70-45D8-AFC8-A068056A8AD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{CF1FC303-8E09-4C91-B0C2-E26282FBBA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF1FC303-8E09-4C91-B0C2-E26282FBBA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF1FC303-8E09-4C91-B0C2-E26282FBBA99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{898D6FC6-CCB4-4F3D-8FCB-E59965F75BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898D6FC6-CCB4-4F3D-8FCB-E59965F75BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898D6FC6-CCB4-4F3D-8FCB-E59965F75BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898D6FC6-CCB4-4F3D-8FCB-E59965F75BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EC4A264-DD70-45D8-AFC8-A068056A8AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC4A264-DD70-45D8-AFC8-A068056A8AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC4A264-DD70-45D8-AFC8-A068056A8AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC4A264-DD70-45D8-AFC8-A068056A8AD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

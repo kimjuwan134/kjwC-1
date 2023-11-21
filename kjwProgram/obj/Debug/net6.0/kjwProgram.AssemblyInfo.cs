@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kjwProgram")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdfbe1098140943df1614dc04994f5f1f604c511")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("kjwProgram")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kjwProgram")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
