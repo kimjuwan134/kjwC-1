@@ -8,9 +8,13 @@
 
             int N = 6;
             int A = 1;
+            int B = 10;
 
-            Console.WriteLine();
-
+            for(int i = 0; i < B; i++)
+            {
+                A += N;
+                Console.WriteLine(A);
+            }
 
         }
     }
