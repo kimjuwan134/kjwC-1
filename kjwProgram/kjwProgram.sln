@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kjwClass6th", "..\kjwClass6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kjwClass7th", "..\kjwClass7th\kjwClass7th.csproj", "{CF1FC303-8E09-4C91-B0C2-E26282FBBA99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kjwClass8th", "..\kjwClass8th\kjwClass8th.csproj", "{898D6FC6-CCB4-4F3D-8FCB-E59965F75BC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kjwClass8th", "..\kjwClass8th\kjwClass8th.csproj", "{898D6FC6-CCB4-4F3D-8FCB-E59965F75BC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kjwClass9th", "..\kjwClass9th\kjwClass9th.csproj", "{8EC4A264-DD70-45D8-AFC8-A068056A8AD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kjwClass9th", "..\kjwClass9th\kjwClass9th.csproj", "{8EC4A264-DD70-45D8-AFC8-A068056A8AD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kjwClass10th", "..\kjwClass10th\kjwClass10th.csproj", "{3E98102D-1D9F-4ECE-80AA-8EC66C866928}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{8EC4A264-DD70-45D8-AFC8-A068056A8AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EC4A264-DD70-45D8-AFC8-A068056A8AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EC4A264-DD70-45D8-AFC8-A068056A8AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E98102D-1D9F-4ECE-80AA-8EC66C866928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E98102D-1D9F-4ECE-80AA-8EC66C866928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E98102D-1D9F-4ECE-80AA-8EC66C866928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E98102D-1D9F-4ECE-80AA-8EC66C866928}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
