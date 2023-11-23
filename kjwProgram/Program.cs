@@ -5,55 +5,56 @@ namespace kjwProgram
 {
     internal class Program
     {
-        public void BinarySearch(int[] a, int b)
+        static void Swap(ref int x, ref int y)
         {
-            int pivot = a.Length / 2;
-            int left = 0;
-            int right = a.Length - 1;
-            
-            while(true)
+            int temp = x;
+            x = y;
+            y = temp;
+        }
+
+        static void QuickSort(int[] array, int left, int right)
+        {
+            // 1. left가 right 보다 크거나 같아졌을 때
+            if(left >= right)
             {
-                if(a[pivot] == b)
-                {
-                    Console.WriteLine("자료 발견 : " + b);
-                }
-                else if (b < a[pivot])
-                {
-                    right = pivot;
-                    pivot = (left + right) / 2;
-                }
-                else if (b > a[pivot])
-                {
-                    left = pivot;
-                    pivot = (left + right) / 2;
-                }
-                else if()
+                return;
             }
+
+            int pivot = array[left - 1];
+
+            while (left <= right)
+            {
+                if (pivot > array[left])
+                {
+                    left++;
+                }
+                
+                if(pivot < array[right])
+                {
+                    right--;
+                }
+            }
+            Swap(ref pivot, ref right);
+            QuickSort(array, pivot + 1, right - 1);
+            QuickSort(array, right + 1, array.Length - 1);
         }
 
         static void Main(string[] args)
         {
-            #region 이진 탐색
+            #region 퀵 정렬
 
-            // 오름차순으로 정렬된 리스트에 특정한 값의 위치를 찾는 알고리즘.
+            // 기준점을 획득한 다음 해당 기준점을 기준으로 배열을 나누고 한쪽에는
+            // 기준점보다 작은 항목들이 위치하고 다른 쪽에는 기준점보다 큰 항목들이 위치.
 
-            // 1. 배열의 가운데 요소의 인덱스를 pivot으로 설정.
+            // 나뉘어진 하위 배열에 대해 재귀적으로 퀵 정렬을 호출하여 모든 배열이
+            // 기본 배열이 될 때까지 반복하면서 정렬하는 알고리즘.
 
-            // 2. [pivot]의 값이 찾고자 하는 요소와 같다면 검색 완료.
+            // 시간복잡도 : O(log N)
 
-            // 3. [pivot]의 값이 찾는 값보다 크다면 left ~ pivot 사이를 검색.
+            int[] array = new int[9] { 5, 8, 3, 2, 1, 9, 4, 7, 6 };
 
-            // 4. [pivot]의 값이 찾는 값보다 작다면 pivot ~ right 사이를 검색.
+            QuickSort(array, 1, array.Length - 1);
 
-            int[] array = new int[6] { 1, 6, 8, 13, 15, 20 };
-
-            
-
-            
-            
-
-
-            
 
 
             #endregion
