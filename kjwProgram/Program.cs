@@ -15,26 +15,38 @@ namespace kjwProgram
         static void QuickSort(int[] array, int left, int right)
         {
             // 1. left가 right 보다 크거나 같아졌을 때
-            if(left >= right)
-            {
-                return;
-            }
+            if (left >= right) return;
 
-            int pivot = array[left - 1];
+            int pivot = left - 1;
 
             while (left <= right)
             {
-                if (pivot > array[left])
+                while (array[pivot] >= array[left] && left <= right)
                 {
                     left++;
+                    //if (left == array.Length - 1) break;
                 }
-                
-                if(pivot < array[right])
+                while (array[pivot] <= array[right] && pivot < right)
                 {
                     right--;
+                    //if (right == pivot + 1) break;
+                }
+                if (left > right)
+                {
+                    //int temp = array[left];
+                    //array[left] = array[right];
+                    //array[right] = temp;
+                    Swap(ref array[pivot], ref array[right]);
+                }
+                else
+                {
+                    //int temp = array[pivot];
+                    //array[pivot] = array[right];
+                    //array[right] = temp;
+                    Swap(ref array[left], ref array[right]);
+
                 }
             }
-            Swap(ref pivot, ref right);
             QuickSort(array, pivot + 1, right - 1);
             QuickSort(array, right + 1, array.Length - 1);
         }
@@ -55,6 +67,14 @@ namespace kjwProgram
 
             QuickSort(array, 1, array.Length - 1);
 
+            foreach (int element in array)
+            {
+                Console.WriteLine(element);
+            }
+
+            // 5, 8, 3, 2, 1, 9, 4, 7, 6
+            // 5, 4, 3, 2, 1, 9, 4, 8, 6
+            // 1, 4, 3, 2, 5, 9, 4, 8, 6
 
 
             #endregion
