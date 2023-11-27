@@ -1,9 +1,5 @@
 ﻿namespace kjwProgram
 {
-    public class A
-    {
-        public readonly int size5 = 8;
-    }
     internal class Program
     {
         static void MergeSort1(int[] array, int left, int right)
@@ -19,11 +15,46 @@
 
         static void MergeSort2(int[] array, int left, int mid, int right)
         {
-            int l, m, r;
+            int[] a = new int[8];
+            int l, m, k;
             l = left;
             m = mid + 1;
-            r = right;
-            int 
+            k = left;
+            
+            while(l <= mid && m <=right)
+            {
+                if (array[l] <= array[m])
+                {
+                    a[k] = array[l];
+                    l++;
+                }
+                else
+                {
+                    a[k] = array[m];
+                    m++;
+                }
+                k++;
+            }
+            if (l > mid)
+            {
+                for(int t = m; t <= right; t++)
+                {
+                    a[k] = array[t];
+                    k++;
+                }
+            }
+            else
+            {
+                for(int t = l; t <= mid; t++)
+                {
+                    a[k] = array[t];
+                    k++;
+                }
+            }
+            for(int t = left; t <= right; t++)
+            {
+                array[t] = a[t];
+            }
         }
 
         static void Main(string[] args)
@@ -37,9 +68,13 @@
             // 정복 : 부분 배열을 정렬하며 부분 배열의 크기가 충분히 작지 않으면 
             //        순환 호출을 이용하여 다시 분할 정복 실행.
             // 결합 : 정렬된 부분 배열들을 하나의 배열에 병합.
-            A a = new A();
-            int[] array = new int[A.] { 10, 25, 37, 8, 3, 12, 41, 9 };
+            int[] array = new int[8] { 10, 25, 37, 8, 3, 12, 41, 9 };
             
+            MergeSort1(array, 0, array.Length - 1);
+            for(int i = 0; i < array.Length; i++)
+            {
+                Console.WriteLine(array[i]);
+            }
 
 
 
