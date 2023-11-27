@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\kjwC-1\kjwClass12th\bin\Debug\net6.0\kjwClass12th.exe
+C:\Users\Administrator\Desktop\kjwC-1\kjwClass12th\bin\Debug\net6.0\kjwClass12th.deps.json
+C:\Users\Administrator\Desktop\kjwC-1\kjwClass12th\bin\Debug\net6.0\kjwClass12th.runtimeconfig.json
+C:\Users\Administrator\Desktop\kjwC-1\kjwClass12th\bin\Debug\net6.0\kjwClass12th.dll
+C:\Users\Administrator\Desktop\kjwC-1\kjwClass12th\bin\Debug\net6.0\kjwClass12th.pdb
+C:\Users\Administrator\Desktop\kjwC-1\kjwClass12th\obj\Debug\net6.0\kjwClass12th.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\kjwC-1\kjwClass12th\obj\Debug\net6.0\kjwClass12th.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\kjwC-1\kjwClass12th\obj\Debug\net6.0\kjwClass12th.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\kjwC-1\kjwClass12th\obj\Debug\net6.0\kjwClass12th.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\kjwC-1\kjwClass12th\obj\Debug\net6.0\kjwClass12th.sourcelink.json
+C:\Users\Administrator\Desktop\kjwC-1\kjwClass12th\obj\Debug\net6.0\kjwClass12th.dll
+C:\Users\Administrator\Desktop\kjwC-1\kjwClass12th\obj\Debug\net6.0\refint\kjwClass12th.dll
+C:\Users\Administrator\Desktop\kjwC-1\kjwClass12th\obj\Debug\net6.0\kjwClass12th.pdb
+C:\Users\Administrator\Desktop\kjwC-1\kjwClass12th\obj\Debug\net6.0\kjwClass12th.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\kjwC-1\kjwClass12th\obj\Debug\net6.0\ref\kjwClass12th.dll
