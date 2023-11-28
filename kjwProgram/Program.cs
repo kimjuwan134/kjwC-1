@@ -40,6 +40,34 @@
 
             #region 인접 행렬
 
+            //AdjacencyMatrix<string> adjacencyMatrix = new AdjacencyMatrix<string>(4);
+
+            //adjacencyMatrix.InsertVertex("A");
+            //adjacencyMatrix.InsertVertex("B");
+            //adjacencyMatrix.InsertVertex("C");
+            //adjacencyMatrix.InsertVertex("D");
+
+            //adjacencyMatrix.InsertEdge(0, 1);
+            //adjacencyMatrix.InsertEdge(0, 2);
+            //adjacencyMatrix.InsertEdge(0, 3);
+            //adjacencyMatrix.InsertEdge(1, 2);
+            //adjacencyMatrix.InsertEdge(3, 2);
+
+            //adjacencyMatrix.Display();
+
+            #endregion
+
+            #region 인접 리스트
+
+            AdjacencyList<char> adjacency = new AdjacencyList<char>(5);
+
+            adjacency.AddEdge('A');
+            adjacency.AddEdge('B');
+            adjacency.AddEdge('C');
+            adjacency.AddEdge('D');
+            adjacency.AddEdge('E');
+
+
 
 
 
