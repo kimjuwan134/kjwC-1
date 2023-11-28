@@ -67,7 +67,7 @@
             adjacency.AddEdge('D');
             adjacency.AddEdge('E');
 
-
+            //adjacency.InsertEdge(0, 'B');
 
 
 

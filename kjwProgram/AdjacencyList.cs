@@ -16,6 +16,10 @@ namespace kjwProgram
         {
             this.maxSize = maxSize;
             adjacencyList = new List<T>[maxSize];
+            //for(int i = 0; i < maxSize; i++)
+            //{
+            //    adjacencyList[i] = ;
+            //}
         }
 
         public void AddEdge(T data)
@@ -23,9 +27,9 @@ namespace kjwProgram
             adjacencyList[size++].Add(data);
         }
 
-        public void InsertEdge(int x, int y)
+        public void InsertEdge(int a, T data)
         {
-            
+            adjacencyList[a].Add(data);
         }
 
 
