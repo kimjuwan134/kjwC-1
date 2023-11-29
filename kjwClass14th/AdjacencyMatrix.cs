@@ -1,4 +1,4 @@
-﻿namespace kjwProgram
+﻿namespace kjwClass14th
 {
     internal class AdjacencyMatrix<T>
     {

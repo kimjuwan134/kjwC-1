@@ -1,38 +1,67 @@
-﻿using System.ComponentModel;
-
-namespace kjwProgram
+﻿namespace kjwProgram
 {
     internal class AdjacencyList<T>
     {
-        // 그래프의 노드
-        // 그래프의 인접 리스트
+        // 그래프의 사이즈
         int size;
-        int maxSize;
+        // 그래프의 인접 리스트
         List<T>[] adjacencyList;
-        T vertex;
 
+        bool[] visited;
+        int visitedSize;
 
-        public AdjacencyList(int maxSize)
+        public AdjacencyList(int vertexSize)
         {
-            this.maxSize = maxSize;
-            adjacencyList = new List<T>[maxSize];
-            //for(int i = 0; i < maxSize; i++)
-            //{
-            //    adjacencyList[i] = ;
-            //}
+            size = vertexSize;
+            adjacencyList = new List<T>[vertexSize];
+            for(int i = 0; i < vertexSize; i++)
+            {
+                adjacencyList[i] = new List<T>();
+            }
+            visited = new bool[vertexSize];
         }
 
-        public void AddEdge(T data)
+        public void InsertEdge(int vertex, T edge)
         {
-            adjacencyList[size++].Add(data);
+            adjacencyList[vertex].Add(edge);
         }
 
-        public void InsertEdge(int a, T data)
+        public void Display()
         {
-            adjacencyList[a].Add(data);
+            for(int i = 0; i < size; i++)
+            {
+                Console.Write("adjacencyList[" + i + "] : ");
+                for (int j = 0; j < adjacencyList[i].Count; j++)
+                {
+                    Console.Write(adjacencyList[i][j] + " ");
+                }
+                Console.WriteLine("");
+            }
         }
 
+        public void BFS(T root)
+        {
+            T index;
+            Queue<T> queue = new Queue<T>();
+            queue.Enqueue(root);
+            index = queue.Dequeue();
+            Console.Write(index + " ");
+            visited[visitedSize++] = true;
 
+            for (int i = 0; i < adjacencyList.Length; i++)
+            {
+                for (int j = 0; j < adjacencyList[i].Count; j++)
+                {
+                    if (visited[visitedSize] == false)
+                    {
+                        queue.Enqueue(adjacencyList[i][j]);
+                        visited[visitedSize++] = true;
+                        index = queue.Dequeue();
+                        Console.Write(index + " ");
+                    }
+                }
+            }
+        }
         
     }
 }

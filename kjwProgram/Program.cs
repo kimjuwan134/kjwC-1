@@ -4,76 +4,35 @@
     {
         static void Main(string[] args)
         {
-            #region 그래프
+            #region BFS(너비 우선 탐색)
 
-            // 정점(Vertex)과 간선(Edge)들이 서로 복잡하게 연결되어있는 자료구조.
+            // Queue에 root 노드 넣기.
 
-            // 정점(Vertex)
-            // 노드(node)라고도 하며, 데이터가 저장되는 그래프의 기본 원소.
+            // visited 방문 체크.
 
-            // 간선(Edge)
-            // 링크(link)라고도 하며, 정점간의 관계를 나타냄.
+            // 반복문이 돌아가는 위치.
+            // 1. Queue가 비어있을 때까지 반복.
 
-            // 인접 정점(Adjacent Vertex)
-            // 하나의 정점에서 간선에 의해 직접 연결되어 있는 정점을 의미.
+            // 2. Queue에서 데이터를 뽑습니다.
 
-            // 차수(Degree)
-            // 정점에 연결되어 있는 간선의 수를 의미.
+            // 3. Queue에서 뽑은 데이터 출력.
 
-            // 진입 차수
-            // 외부에서 오는 간선의 수.
+            // 4. 반복문을 이용해서 자기와 인접한 노드를 Queue에 넣기.
 
-            // 진출 차수
-            // 외부로 향하는 간선의 수.
+            // 5. 방문하지 않은 정점이라면 해당 vertex 방문 체크하고 Queue 데이터 삽입.
 
-            // 단순 경로(Simple Path)
-            // 경로 중에서 반복되는 간선이 없는 경로를 의미.
+            AdjacencyList<int> adjacency = new AdjacencyList<int>(7);
+            adjacency.InsertEdge(0, 1);
+            adjacency.InsertEdge(0, 2);
+            adjacency.InsertEdge(1, 3);
+            adjacency.InsertEdge(1, 4);
+            adjacency.InsertEdge(2, 5);
+            adjacency.InsertEdge(2, 6);
 
-            // 사이클(Cycle)
-            // 시작 정점과 종료 정점이 같은, 단순 경로를 의미.
-
-
-
-
+            adjacency.BFS(0);
 
             #endregion
 
-            #region 인접 행렬
-
-            //AdjacencyMatrix<string> adjacencyMatrix = new AdjacencyMatrix<string>(4);
-
-            //adjacencyMatrix.InsertVertex("A");
-            //adjacencyMatrix.InsertVertex("B");
-            //adjacencyMatrix.InsertVertex("C");
-            //adjacencyMatrix.InsertVertex("D");
-
-            //adjacencyMatrix.InsertEdge(0, 1);
-            //adjacencyMatrix.InsertEdge(0, 2);
-            //adjacencyMatrix.InsertEdge(0, 3);
-            //adjacencyMatrix.InsertEdge(1, 2);
-            //adjacencyMatrix.InsertEdge(3, 2);
-
-            //adjacencyMatrix.Display();
-
-            #endregion
-
-            #region 인접 리스트
-
-            AdjacencyList<char> adjacency = new AdjacencyList<char>(5);
-
-            adjacency.AddEdge('A');
-            adjacency.AddEdge('B');
-            adjacency.AddEdge('C');
-            adjacency.AddEdge('D');
-            adjacency.AddEdge('E');
-
-            //adjacency.InsertEdge(0, 'B');
-
-
-
-
-
-            #endregion
 
 
         }

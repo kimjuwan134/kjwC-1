@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kjwClass11th", "..\kjwClass
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kjwClass12th", "..\kjwClass12th\kjwClass12th.csproj", "{E0A9C692-930D-487F-8784-F315CD6433F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kjwClass13th", "..\kjwClass13th\kjwClass13th.csproj", "{6AFCD685-C062-49CA-90D2-46BE066698A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kjwClass13th", "..\kjwClass13th\kjwClass13th.csproj", "{6AFCD685-C062-49CA-90D2-46BE066698A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kjwClass14th", "..\kjwClass14th\kjwClass14th.csproj", "{A706C850-CC1D-4951-AAEB-555ECBACBBB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{6AFCD685-C062-49CA-90D2-46BE066698A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AFCD685-C062-49CA-90D2-46BE066698A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AFCD685-C062-49CA-90D2-46BE066698A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A706C850-CC1D-4951-AAEB-555ECBACBBB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A706C850-CC1D-4951-AAEB-555ECBACBBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A706C850-CC1D-4951-AAEB-555ECBACBBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A706C850-CC1D-4951-AAEB-555ECBACBBB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
