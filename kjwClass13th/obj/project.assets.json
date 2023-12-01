@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwClass13th\\kjwClass13th.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\새 폴더\\kjwC-1\\kjwClass13th\\kjwClass13th.csproj",
       "projectName": "kjwClass13th",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwClass13th\\kjwClass13th.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\새 폴더\\kjwC-1\\kjwClass13th\\kjwClass13th.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\kjwC-1\\kjwClass13th\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\새 폴더\\kjwC-1\\kjwClass13th\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,17 +51,11 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
